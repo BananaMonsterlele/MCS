@@ -1,0 +1,25 @@
+body {
+    margin: 0 10px;
+}
+
+.title {
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 3px;
+}
+
+img {
+    margin: 5 0px;
+}
+
+p {
+    padding: 1px 5px;
+}
+
+.content p:first-of-type {
+    padding-top: 15px;
+}
+
+.content p:last-of-type {
+    padding-bottom: 10px;
+}
