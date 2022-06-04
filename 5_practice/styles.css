@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #E50043;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+}
+.header-nav-link {
+    padding-right: 25px;
+}
+.header-nav-link:last-of-type{
+    padding-right: 0px;
+}
+
+.main {
+    position: relative;
+    height: 950px;
+    background-image: url(evian_origins_logo.png);
+    background-size: cover;
+    top: -50px
+}
+
+.main-text {
+    position: relative;
+    top: 430px;
+
+    font-family: Arial;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 115px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: #E50043;
+}
+
+.bottles-first-text {
+    width: 1040px;
+    height: 280px;
+    margin: 150px auto;
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+    padding: 20px;
+
+    font-family: Arial;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.bottles-first-text h6 {
+    padding-bottom: 30px;
+}
+
+.bottles-bottles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 158px;
+}
+
+.bottles-bottles-child {
+    padding-right: 100px;
+}
+
+.bottles-bottles-child:last-of-type{
+    padding-right: 0;
+}
+
+.bottles-bottles-img-child {
+    padding-bottom: 48px;
+}
+
+.bottles-bottles-text-child {
+    font-family: Arial;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.bottles-second-text {
+    width: 1040px;
+    height: 280px;
+    margin: auto;
+    margin-bottom: 180px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+}
+
+.bottles-second-text-img {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.bottles-second-text-text {
+    font-family: Arial;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.bottles-second-text-text p {
+    margin-bottom: 25px;
+}
+
+.bottles-second-text-text p:last-of-type {
+    margin-bottom: 0px;
+}
+
+.footer {
+    background: #F8BFC7;
+    height: 140px;
+
+    padding: 40px;
+
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
