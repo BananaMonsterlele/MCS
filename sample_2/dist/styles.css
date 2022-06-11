@@ -246,3 +246,46 @@ body {
   line-height: 18px;
   color: #9CA1A9;
 }
+
+.footer {
+  display: flex;
+  width: 100%;
+  padding: 50px 110px;
+  justify-content: space-between;
+  align-items: space-between;
+  color: #FFF;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.05em;
+}
+.footer-list_title {
+  font-size: 16.5px;
+  margin-bottom: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+.footer-list_el:hover {
+  cursor: pointer;
+  color: #A37846;
+}
+.footer-list_first .footer-list_el:last-of-type {
+  margin-bottom: 34px;
+}
+
+.line {
+  margin-bottom: 37px;
+}
+
+.thanks {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.05em;
+  text-align: left;
+}
