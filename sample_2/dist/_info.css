@@ -1,0 +1,36 @@
+.info {
+  background: #FFF;
+  border-radius: 10px;
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 10px;
+  justify-content: space-between;
+  padding: 12px;
+  font-family: "Roboto", sans-serif;
+}
+.info-rate {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 700;
+}
+.info-rate_dollar {
+  padding-right: 12px;
+}
+.info-rate_dollar span {
+  color: #9CA1A9;
+  padding-right: 6px;
+}
+.info-rate_euro span {
+  color: #9CA1A9;
+  padding-right: 6px;
+}
+.info-hint {
+  display: flex;
+  align-items: center;
+}
+.info-hint_text {
+  padding-right: 12px;
+  color: #9CA1A9;
+}

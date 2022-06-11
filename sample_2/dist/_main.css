@@ -1,0 +1,93 @@
+.main {
+  background-color: #F2F2F2;
+  margin-top: 15px;
+  border-radius: 10px 10px 0px 0px;
+  font-family: "Alice";
+  padding: 60px;
+}
+.main-section:first-of-type {
+  border: 5px solid #A37846;
+  margin-top: 0;
+  border-radius: 10px;
+  padding: 45px 65px 30px 65px;
+  flex-direction: column;
+  align-items: center;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.main-section:first-of-type div:last-of-type {
+  margin-top: 60px;
+  color: #9CA1A9;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
+.main-section {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #FFFFFF;
+  border: 1px solid #9CA1A9;
+  border-radius: 10px;
+  padding: 30px;
+}
+.main-section_block:first-of-type {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 41px;
+  height: 375px;
+}
+.main-section_block:first-of-type .main-section_article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.main-section_block {
+  display: flex;
+  width: 50%;
+}
+.main-section_block:last-of-type {
+  display: flex;
+  flex-direction: column;
+}
+.main-section_flexblock {
+  display: flex;
+  width: 100%;
+}
+.main-section_flexblock .main-section_article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0em;
+  width: 300px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+.main-section_flexblock .main-section_article:last-of-type {
+  margin-right: 0;
+}
+.main-section_flexblock .main-section_article__date {
+  margin-top: 30px;
+}
+.main-section_flexblock:last-of-type .main-section_article {
+  margin-bottom: 0;
+}
+
+.date {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #9CA1A9;
+}
